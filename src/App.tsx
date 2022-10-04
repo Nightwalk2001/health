@@ -13,7 +13,7 @@ const Time = () => {
     })
 
     return <div className={"absolute left-1/2 -translate-x-1/2 top-40 flex items-center"}>
-        <div className={"w-96 font-semibold"}>2022-10-04 {time.toLocaleTimeString()}</div>
+        <div className={"whitespace-nowrap font-semibold"}>2022-10-04 {time.toLocaleTimeString().slice(2, 10)}</div>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
              className={"w-4 h-4 ml-2.5 pb-0.5  text-blue-400"}>
