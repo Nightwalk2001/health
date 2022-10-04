@@ -13,7 +13,7 @@ const Time = () => {
     })
 
     return <div className={"absolute left-1/2 -translate-x-1/2 top-40 flex items-center"}>
-        <span className={"font-semibold"}>2022-10-04 {time.toLocaleTimeString()}</span>
+        <span className={"w-fit font-semibold"}>2022-10-04 {time.toLocaleTimeString()}</span>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
              className={"w-4 h-4 ml-2.5 pb-0.5  text-blue-400"}>
@@ -31,10 +31,10 @@ const Code = () => {
     const time = new Date()
     return <div>
         <div className={"absolute left-16 top-[505px] flex"}>
-            <div className={"text-5xl text-[#35be7c] font-semibold"}>25</div>
+            <div className={"text-5xl text-[#35be7c] font-bold"}>25</div>
             <div className={"flex flex-col ml-1.5"}>
                 <span className={"text-base font-semibold"}>小时</span>
-                <span className={"text-base text-[#35be7c] font-semibold"}>阴性</span>
+                <span className={"text-base text-[#35be7c] font-bold"}>阴性</span>
             </div>
         </div>
 
