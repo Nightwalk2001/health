@@ -39,7 +39,9 @@ const Code = () => {
         </div>
 
         <div
-            className={"absolute left-6 top-[571px] text-sm text-[#999999] font-medium"}>{lightFormat(subHours(time, 25), "yyyy-MM-dd HH:mm:SS")}</div>
+            className={"absolute left-8 top-[571px] text-sm text-[#999999] font-medium"}>
+            {lightFormat(subHours(time, 25), "yyyy-MM-dd HH:mm:SS")}
+        </div>
     </div>
 }
 
